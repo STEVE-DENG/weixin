@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Wing 内置播放器调试",
+            "type": "chrome",
+            "request": "launch",
+            "file": "pages/index/index.wxml",
+            "runtimeExecutable": "${execPath}",
+            "useBuildInServer": true,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "preLaunchTask":"build",
+            "port":5610
+        },
+        {
+            "name": "使用本机 Chrome 调试",
+            "type": "chrome",
+            "request": "launch",
+            "file": "pages/index/index.wxml",
+            "runtimeExecutable": "C:/Users/Dell/AppData/Local/Google/Chrome/Application/chrome.exe",
+            "useBuildInServer": true,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "preLaunchTask":"build",
+            "port":5610
+        },
+        {
+            "name": "附加到 Chrome 进程",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
