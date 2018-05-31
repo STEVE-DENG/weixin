@@ -14,5 +14,6 @@
     <image class="buttonbarimg" src="../image/botton1.jpg"></image>
   </view>
 </view>
-<action-action-sheet> aa</action-action-sheet>
 
+<action-action-sheet> aa</action-action-sheet>
+<action-action-sheet> ss</action-action-sheet>
