@@ -1,0 +1,16 @@
+<!-- index.wxml -->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usernano">
+    <text class="user_nano">{{nano}}</text>
+  </view>
+  <view class="buttonbar">
+    <image class="buttonbarimg" src="../image/botton1.jpg"></image>
+  </view>
+</view>
